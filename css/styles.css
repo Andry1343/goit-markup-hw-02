@@ -6,6 +6,10 @@ ul {
   list-style: none;
 }
 
+.logo-studio, .logo-web {
+  text-decoration: none;
+}
+
 /* WebStudio */
 
 .logo-studio {
@@ -26,12 +30,4 @@ ul {
   line-height: 31px;
   letter-spacing: 0.03em;
   color: #2196f3;
-}
-
-**.logo-studio, .logo-web {
-  position: absolute;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
-}
+} 
