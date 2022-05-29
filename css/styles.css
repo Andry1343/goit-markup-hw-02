@@ -2,6 +2,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.address {
+  font-style: normal
+}
+
 :root {
   --header-color: #ffffff;
   --effective-solutions-color: #2f303a;
@@ -27,9 +31,19 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #000000;
+}
+
+.logo-studio-white {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
 
 .logo-web {
@@ -37,7 +51,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
 }
@@ -47,10 +61,13 @@ body {
 }
 
 /*.header-nav {
+}*/
+/*.header-list : {
 }
-.header-list {
-}
-.header-item {
+
+.header-list : {
+}*/
+/*.header-item {
 }*/
 
 .header-item-list {
@@ -122,6 +139,7 @@ body {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  cursor: pointer ;
 }
 
 /*Подход к работе*/
@@ -211,6 +229,32 @@ body {
 
 /*Футер*/
 
+.address-list-mail-li :hover {
+  color: #2196f3;
+  cursor: pointer ;
+}
+.address-list-mail-li :focus { 
+  color: #2196f3;
+  cursor: pointer ;
+}
+
+.address-list-tel-li :hover {
+  color: #2196f3;
+  cursor: pointer ;}
+
+.address-list-tel-li :focus {
+  color: #2196f3;
+  cursor: pointer ;}
+
+.address-list-addres-li :hover {
+  color: #2196f3;
+  cursor: pointer ;}
+
+.address-list-addres-li :focus { 
+  color: #2196f3;
+  cursor: pointer ;
+}
+
 .footer {
   background-color: #2f303a;
 }
@@ -250,6 +294,18 @@ body {
 
 /*Портфолио*/
 
+.filter-buttons-li :hover {
+  background-color: #2196f3;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.filter-buttons-li :focus {
+  background-color: #2196f3;
+  color: #ffffff;
+  cursor: pointer;}
+
+
 .filter-buttons {
 font-family: 'Roboto';
 font-style: normal;
@@ -260,16 +316,6 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
 }
-
-.filter-buttons-list :hover {
-  color: #ffffff;
-  background-color: #2196f3;
-}
-.filter-buttons-list :focus {
-  color: #ffffff ;
-  background-color: #2196f3;
-}
-
 
 
 
@@ -286,7 +332,6 @@ line-height: 2;
 letter-spacing: 0.06em;
 color: #212121;
 }
-
 
 .project-title {
 font-family: 'Roboto';
